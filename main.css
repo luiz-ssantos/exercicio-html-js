@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #6db8b8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 3rem;
+  align-items: center;
+  color: #f2d649;
+}
+
+/* Estilo dos links no cabeçalho */
+header a {
+  text-decoration: none;
+  color: #000000d8;
+  font-weight: 600;
+  -webkit-text-stroke: 0.03rem #91d9d9;
+}
+
+/* Estilo dos links no hover */
+header a:hover {
+  font-weight: 900;
+  color: #332b01;
+  cursor: pointer;
+}
+
+/* Estilo da lista no cabeçalho */
+header ul {
+  list-style-type: none;
+}
+
+/* Estilo dos links da lista no cabeçalho */
+header ul li a {
+  font-size: 1.4rem;
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #91d9d9;
+  margin: 0 auto;
+}
+
+/* Estilo do formulário */
+#formurario {
+  background-color: #f2e6cece;
+  max-width: 20rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo do título do formulário */
+#formurario h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo dos campos de entrada do formulário */
+#formurario input {
+  margin-bottom: 1rem;
+}
+
+/* Estilo dos campos de entrada do formulário no hover */
+#formurario input:hover {
+  background-color: #f3e390;
+}
+
+/* Estilo do botão de validação */
+#buttonDiv {
+  text-align: center;
+}
+
+#buttonValidacao {
+  padding: 0.5rem;
+  border: 0.1rem solid #738c4d;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Estilo do botão de validação no hover */
+#buttonValidacao:hover {
+  font-size: 1rem;
+  background-color: #f3e390;
+}
+
+/* Estilo da área de validação */
+#Validacao {
+  max-width: 6rem;
+  max-height: 8rem;
+  margin-left: 0.5rem;
+  padding: 0;
+  align-items: center;
+}
+
+/* Estilo do rodapé */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Estilo da imagem */
+img {
+  max-height: 7rem;
+}

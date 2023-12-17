@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Validação</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1><a href="#">Validação</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Corpo principal -->
+    <main>
+      <section id="formurario">
+        <div>
+          <h2>Formulário</h2>
+          <!-- Formulário de entrada -->
+          <form action="">
+            <label for="primeiroNumero">Campo A</label>
+            <br />
+            <input
+              type="number"
+              min="0"
+              name="primeiroNumero"
+              id="primeiroNumero"
+              placeholder="Digite o primeiro Número..."
+            />
+            <br />
+            <label for="segundoNumero">Campo B</label>
+            <br />
+            <input
+              type="number"
+              min="1"
+              name="segundoNumero"
+              id="segundoNumero"
+              placeholder="Digite o segundo Número..."
+            />
+            <br />
+            <!-- Botão de validação -->
+            <div id="buttonDiv">
+              <input type="submit" id="buttonValidacao" value="VALIDAÇÃO" />
+            </div>
+          </form>
+        </div>
+        <!-- Área de exibição de validação -->
+        <div id="Validacao">
+          <img id="imgValidacao" src="img/001.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; Luiz Henrique - Profissão: Desenvolvedor Full Stack Python</p>
+    </footer>
+    <!-- Script JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
