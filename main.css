@@ -51,6 +51,7 @@ body {
 #formurario {
   background-color: #f2e6cece;
   max-width: 20rem;
+  max-height: auto;
   padding: 1rem;
   border-radius: 1rem;
   margin: 0 auto;
@@ -94,13 +95,24 @@ body {
   background-color: #f3e390;
 }
 
-/* Estilo da área de validação */
-#Validacao {
+/* Estilo da área da imagem exibição de validação */
+#validacao {
   max-width: 6rem;
   max-height: 8rem;
   margin-left: 0.5rem;
   padding: 0;
   align-items: center;
+}
+
+/* Estilo da área do texto exibição de validação */
+#textoValidacao {
+  display: none;
+  color: rgb(255, 255, 255);
+  padding: 0.7rem;
+  margin-top: 1rem;
+  text-align: center;
+  width: 19rem;
+  border-radius: 0.5rem;
 }
 
 /* Estilo do rodapé */
